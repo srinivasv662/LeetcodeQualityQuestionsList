@@ -13,7 +13,7 @@ async function getGoodQuestions(count) {
         const browser = await puppeteer.launch({
             headless: false,
             defaultViewport: null,
-            slowMo: 50,
+            slowMo: 100,
             args: ["--start-maximized"]
         });
 
