@@ -19,4 +19,4 @@ if(agree == "yes" && (numberOfQuestions >= 1 && numberOfQuestions <= 1900)){
     console.log("Please Rerun the program and Provide Correct input");
 }
 
-// let's try to get Good Quetions with UpVotes >= 70% from first 50 problems of Leetcode
+// let's try to get Good Quetions with UpVotes >= 70% from first 50 problems of Leetcode, Obvisouly skipping premium questions
